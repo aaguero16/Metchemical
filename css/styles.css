@@ -1,0 +1,169 @@
+body{
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-top-s{
+    padding-top: 20px;
+}
+
+.padding-top-m{
+    padding-top: 50px;
+}
+
+.padding-top-l{
+    padding-top: 80px;
+}
+
+.padding-top-xl{
+    padding-top: 120px;
+}
+
+.padding-bottom-l{
+    padding-bottom: 80px;
+}
+
+
+
+
+.color1{
+    background: #0769b4;
+}
+
+.color2{
+    background: #B45207;
+}
+
+.color3{
+    background: #5207B4;
+}
+
+.color4{
+    background: #75B8EB;
+}
+
+.color5{
+    background: #EBBC75;
+}
+
+.color6{
+    background: #010D16;
+}
+
+.color7{
+    background: #707D86;
+}
+
+.color8{
+    background: #12B407;
+}
+
+.color9{
+    background: #F9F9F9;
+}
+
+/**************************************************/
+
+.cover{
+    width: 100%; 
+    height: 450px; 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+}
+
+.cover h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.cover .row{
+    height: 100%;
+}
+
+/**************************************************/
+
+
+.circle-img{
+    width:100%;
+    margin-top: -200px;
+}
+
+
+/*******************************MISION Y VISION*******************************/
+
+.mision-vision{
+    margin: 20px;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+}
+
+.mision-vision p{
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.recurso{
+    width: 200px;
+}
+
+
+
+/***********************************VALORES**********************/
+
+.valores{
+    background: white;
+    border-radius: 10px;
+    height: 140px;
+    margin-bottom: 20px;
+    border: 1px solid #010D16;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.valores span{
+    font-weight: 400;
+    font-size: medium;
+}
+
+.v-t{
+    font-weight: bold;
+    font-size: large;
+}
+
+.icon-v{
+    width: 80px;
+    padding-right: 20px;
+}
+
+
+
+/***************************************************************/
+
+.cta1{
+    background: #EBBC75;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 42px;
+    color: #010D16;
+    font-weight: bold;
+}
+
+.cta1:hover{
+    background: #0769b4;
+    color: white;
+    transition: ease-in 0.3s;
+}
+

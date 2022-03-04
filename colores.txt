@@ -1,0 +1,18 @@
+#0769b4 azul principal
+
+#B45207
+
+#5207B4 morado secundario 1
+
+#75B8EB celeste opcional
+
+#EBBC75 naranja principal 2
+
+
+#707D86 gris
+
+#12B407 verde
+
+#010D16 negro secundario 2
+
+
