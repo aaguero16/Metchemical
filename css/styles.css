@@ -29,11 +29,14 @@ body{
 }
 
 
-.padding-bottom-Xl{
+.padding-bottom-xl{
     padding-bottom: 120px;
 }
 
-
+.padding-all{
+    padding: 20px;
+    text-align: center;
+}
 
 
 .color1{
@@ -82,6 +85,19 @@ body{
     height: 300px;
 }
 
+
+.customer-cl{
+    margin-right: 20px;
+    height:80px;
+    border-radius: 10px;
+    color: #010D16;
+    border: 1px solid #E9E9E9;
+}
+
+.customer-cl:hover{
+    box-shadow: 3px 7px #F9F9F9;
+    color: #010D16;
+}
 
 
 
@@ -206,7 +222,7 @@ body{
     height: 50px;
     border-radius: 10px;
     line-height: 42px;
-    color: #010D16;
+    color: white;
     font-weight: bold;
     cursor: pointer;
 }
