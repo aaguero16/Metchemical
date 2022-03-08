@@ -3617,6 +3617,13 @@ footer ul.social_icons {
 	background-position: center center;
 }
 
+.inner_banner_sectionNosotros {
+	background: url('../images/Nosotros/nosotros_Banner.jpg');
+	min-height: 245px;
+	background-size: cover;
+	background-position: center center;
+}
+
 .link_Home {
 	font-weight:  bold;
 	color: #eabe12;
