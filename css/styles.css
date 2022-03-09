@@ -101,6 +101,23 @@ body{
 
 
 
+/***********************PIE DE PAGINA*****************************/
+
+.logo-pie{
+    width: 200px;
+}
+
+
+
+.li_style{
+    margin-left: -30px;
+    font-size: 14px;
+}
+
+
+
+
+
 
 
 /*************************NOSOTROS*************************/
@@ -270,8 +287,8 @@ body{
     animation-fill-mode: both;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    animation-iteration-count: 0.5s;
-    -webkit-animation-iteration-count: 0.5s;
+    animation-iteration-count: 5s;
+    -webkit-animation-iteration-count: 3s;
   } 
   
   @-webkit-keyframes bounce {
