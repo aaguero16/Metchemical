@@ -1,6 +1,4 @@
-body{
-    
-}
+
 
 .center{
     display: flex;
@@ -98,7 +96,69 @@ body{
     color: #010D16;
 }
 
+.ctr-c{
+    justify-content: center;
+}
 
+
+.bg-move{
+    background-image: linear-gradient(
+        to bottom right,
+        #707D86 0%,
+        #EBBC75 20%,
+        #5207B4  40%,
+        #17a5e9 60%,
+        #010D16 80%
+    );
+
+    background-size: 200% 200%;
+
+    animation: movimiento 12s linear infinite alternate;
+
+    width: 80%;
+    height: 350px;
+    border-radius: 15px ;
+}
+
+.bg-move h3{
+    color: white;
+    font-weight: 700;
+}
+
+@keyframes movimiento {
+    from{
+        background-position: 0%;
+    }to{
+        background-position: 100% 100%;
+    }
+
+}
+
+.container-frmvideo{
+    width:100%; 
+    border-radius: 20px;
+}
+
+.frmvideo{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 315px;
+    cursor:pointer;
+}
+
+.frmvideo :hover{
+    box-shadow: red;
+}
+
+.style-link-a{
+    color: #17a5e9;
+    font-weight: 500;
+}
+
+.style-link-a:hover{
+    color: #010D16;
+}
 
 /***********************PIE DE PAGINA*****************************/
 
@@ -151,8 +211,8 @@ footer a:hover{
 
 
 .circle-img{
-    width:100%;
-    margin-top: -200px;
+    width:350px;
+    margin-top: -250px;
 }
 
 
@@ -160,34 +220,81 @@ footer a:hover{
     border-radius: 50%;
 }
 
+.st-text{
+    color: #010D16;
+    font-size: large;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
 
 /*******************************MISION Y VISION*******************************/
+
+.mv-box {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+  }
+  
+  .mv-box:hover .mv {
+      transform: rotateY(180deg);
+  }
+  
+  .mv {
+    transform-style: preserve-3d;
+    transition: all 1s linear;
+  }
+  
+  .mv-face{
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .mv-face.backface {
+    transform: rotateY(180deg);
+  }
+
+.txt-mv-title{
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+
+.txt-mv{
+    font-size: small;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.mv-row{
+    width: 90%;
+	padding-top: 120px;
+	text-align: right;
+    transform: translatey(30px);
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
 
 .mision-vision{
     margin: 20px;
     border-radius: 50%;
     width:200px;
     height:200px;
-}
-
-.mision-vision p{
-    font-weight: bold;
-    font-size: x-large;
-    color: white;
+    padding: 30px;
 }
 
 .recurso{
     width: 200px;
 }
 
-/* .mision-vision:hover{
+.mision-vision:hover{
     transition: ease-in 0.3s;
     background: #010D16;
-} */
-
-.title-mv{
-    
 }
+
 
 .mision-vision .event-h{
     width: 90%;
@@ -247,6 +354,10 @@ footer a:hover{
     color: white;
     font-weight: bold;
     cursor: pointer;
+}
+
+.cta1 a{
+    color: white;
 }
 
 .color-a{
