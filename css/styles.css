@@ -154,11 +154,35 @@
 .style-link-a{
     color: #17a5e9;
     font-weight: 500;
+    position: relative;
+}
+
+.fa-long-arrow-alt-right {
+    visibility: hidden; 
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+    /* right: 30px;
+    top: 11px; */
+    transition: all 0.2s;
+    opacity: 0;
 }
 
 .style-link-a:hover{
     color: #010D16;
 }
+
+
+
+.style-link-a:hover .fa-long-arrow-alt-right {
+    visibility: visible;
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 3px;
+    /* right: 0.1px; */
+    opacity: 1;
+  }
+
 
 /***********************PIE DE PAGINA*****************************/
 
